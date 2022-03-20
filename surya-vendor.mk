@@ -845,7 +845,6 @@ PRODUCT_PACKAGES += \
     imsdatadaemon \
     imsqmidaemon \
     imsrcsd \
-    init.qcom.sensors \
     irsc_util \
     loc_launcher \
     lowi-server \
