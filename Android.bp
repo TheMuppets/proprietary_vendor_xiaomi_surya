@@ -9211,7 +9211,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",
-	apk: "proprietary/app/SoterService/SoterService.apk",
+	apk: "proprietary/system/app/SoterService/SoterService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -9335,13 +9335,13 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 dex_import {
 	name: "tcmclient",
 	owner: "xiaomi",
-	jars: ["proprietary/framework/tcmclient.jar"],
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
