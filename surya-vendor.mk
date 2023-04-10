@@ -811,8 +811,6 @@ PRODUCT_PACKAGES += \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
-    libaptXHD_encoder \
-    libaptX_encoder \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
