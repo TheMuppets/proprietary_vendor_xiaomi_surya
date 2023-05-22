@@ -8861,8 +8861,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmosal_system_ext",
-	stem: "libmmosal",
+	name: "libmmosal",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -8933,6 +8932,26 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libmmrtpencoder.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwfdclient",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libwfdclient.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/system_ext/lib64/libwfdclient.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -9182,6 +9201,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "com.qualcomm.qti.wifidisplayhal@1.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libwfdavenhancements",
 	owner: "xiaomi",
 	strip: {
@@ -9233,8 +9269,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.wifidisplaysession@1.0_system_ext",
-	stem: "vendor.qti.hardware.wifidisplaysession@1.0",
+	name: "vendor.qti.hardware.wifidisplaysession@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9481,23 +9516,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libimsmedia_jni.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libwfdclient",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/libwfdclient.so"],
 		},
 	},
 	compile_multilib: "64",
