@@ -394,32 +394,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_proprietary \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
-    capi_v2_aptX_CLHDADV_Encoder \
-    capi_v2_aptX_CLHDAD_Speech_Decoder \
-    capi_v2_aptX_Classic \
-    capi_v2_aptX_HD \
-    libSuperSensor_skel \
-    libVC1Dec \
-    libVC1DecDsp_skel \
-    libVDHexagonSuperPhoto_skel \
-    libapps_mem_heap \
-    libarcsoft_dualcam_refocus_skel \
-    libcamera_nn_skel \
-    libcvpdsp_skel \
-    libdspCV_skel \
-    libdsp_streamer_add_constant \
-    libdsp_streamer_binning \
-    libdsp_streamer_skel \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhexagon_nn_skel \
-    libhexagon_nn_skel_secondary \
-    libmialgo_rfs_cdsp_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsnpe_dsp_v66_domains_v2_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     libmisoundfx \
     libshoebox \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
@@ -498,7 +472,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.node.misegment \
     libdepthmapwrapper \
     libmmcamera_cac3 \
-    com.fingerprints.extension@1.0 \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
@@ -694,7 +667,6 @@ PRODUCT_PACKAGES += \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libtrustedapploader \
-    libvendor.goodix.hardware.biometrics.fingerprint@2.1 \
     libvideofilter_only \
     libvidhance \
     libwms \
@@ -784,6 +756,32 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
+    capi_v2_aptX_CLHDADV_Encoder \
+    capi_v2_aptX_CLHDAD_Speech_Decoder \
+    capi_v2_aptX_Classic \
+    capi_v2_aptX_HD \
+    libSuperSensor_skel \
+    libVC1Dec \
+    libVC1DecDsp_skel \
+    libVDHexagonSuperPhoto_skel \
+    libapps_mem_heap \
+    libarcsoft_dualcam_refocus_skel \
+    libcamera_nn_skel \
+    libcvpdsp_skel \
+    libdspCV_skel \
+    libdsp_streamer_add_constant \
+    libdsp_streamer_binning \
+    libdsp_streamer_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhexagon_nn_skel \
+    libhexagon_nn_skel_secondary \
+    libmialgo_rfs_cdsp_skel \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
+    libsnpe_dsp_v66_domains_v2_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
