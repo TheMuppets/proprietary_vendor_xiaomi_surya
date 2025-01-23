@@ -743,6 +743,7 @@ PRODUCT_PACKAGES += \
     libsnpe_dsp_v66_domains_v2_skel \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
+    misound_res \
     tas25xx_TI_0 \
     tas25xx_TI_1 \
     com.qualcomm.qti.dpm.api@1.0 \

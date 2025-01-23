@@ -8200,6 +8200,15 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
+	name: "misound_res",
+	filename: "misound_res.bin",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/misound_res.bin",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
 	name: "tas25xx_TI_0",
 	filename: "tas25xx_TI_0.bin",
 	owner: "xiaomi",
