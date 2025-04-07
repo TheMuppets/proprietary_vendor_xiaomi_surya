@@ -333,16 +333,6 @@ PRODUCT_PACKAGES += \
     audio.primary.sm6150 \
     sound_trigger.primary.sm6150 \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxDsdDec \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
-    libOmxVpp \
-    libOmxWmaDec \
     liba2dpoffload \
     libadm \
     libadpcmdec \
@@ -350,7 +340,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libdrc \
-    libdsd2pcm \
     libmulawdec \
     libqcodec2 \
     libsmwrapper \
