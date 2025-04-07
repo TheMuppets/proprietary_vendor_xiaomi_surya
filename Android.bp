@@ -6256,7 +6256,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "fingerprint.fpc.default",
+    name: "fingerprint.fpc.sm6150",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6264,7 +6264,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/fingerprint.fpc.default.so",
+                "proprietary/vendor/lib64/hw/fingerprint.fpc.sm6150.so",
             ],
             shared_libs: [
                 "liblog",
@@ -6290,7 +6290,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "fingerprint.goodix.default",
+    name: "fingerprint.goodix.sm6150",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6298,7 +6298,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/fingerprint.goodix.default.so",
+                "proprietary/vendor/lib64/hw/fingerprint.goodix.sm6150.so",
             ],
             shared_libs: [
                 "libcutils",

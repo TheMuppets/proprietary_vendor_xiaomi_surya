@@ -447,8 +447,8 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     consumerir.sm6150 \
-    fingerprint.fpc.default \
-    fingerprint.goodix.default \
+    fingerprint.fpc.sm6150 \
+    fingerprint.goodix.sm6150 \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
