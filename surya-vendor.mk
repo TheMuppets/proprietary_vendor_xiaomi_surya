@@ -817,3 +817,7 @@ PRODUCT_PACKAGES += \
     vppservice \
     xtra-daemon \
     dpmd
+
+PRODUCT_PACKAGES += \
+    system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
+    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_s
